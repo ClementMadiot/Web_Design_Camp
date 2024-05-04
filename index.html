@@ -1,39 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-  <link rel="stylesheet" href="style.css">
-  <title>Web Design Mastery | Camp</title>
-</head>
-<body>
-  <nav>
-    <div class="nav_header">
-      <div class="nav_logo">
-        <a href="#">Camp</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Design Mastery | Camp</title>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav>
+      <div class="nav_header">
+        <div class="nav_logo">
+          <a href="#">camp</a>
+        </div>
+        <div class="nav_menu_btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
       </div>
-      <div class="nav_menu_btn" id="menu-btn">
-        <i class="ri-menu-line"></i>
+      <ul class="nav_links" id="nav-links">
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">contact</a></li>
+      </ul>
+      <div class="nav_btns">
+        <button class="btn"><i class="ri-search-line"></i></button>
+        <button class="btn"><i class="ri-shopping-bag-line"></i></button>
       </div>
-    </div>
-    <ul class="nav_links" id="nav-links">
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">ABOUT</a></li>
-      <li><a href="#">CONTACT</a></li>
-    </ul>
-    <div class="nav_btns">
-      <button class="btn"><i class="ri-search-line"></i></button>
-      <button class="btn"><i class="ri-shopping-bag-line"></i></button>
-    </div>
-  </nav>
-  <div class="container"></div>
-  <div class="container__left">
-    
-  </div>
-  <script src="main.js"></script>
-</body>
+    </nav>
+    <!-- navbar  -->
+
+    <!-- section tent -->
+    <section class="container">
+      <article class="container_left">
+        <h1>enjoy your holidays</h1>
+        <div class="container_btn">
+          <button class="btn">book now</button>
+        </div>
+      </article>
+
+      <article class="container_right">
+        <div class="images">
+          <img class="tent-1" src="assets/tent-1.jpg" alt="tent-1" />
+          <img class="tent-2" src="assets/tent-2.jpg" alt="tent-2" />
+        </div>
+        <div class="content">
+          <h4>12m2 | 2 beds</h4>
+          <h2>basic tent</h2>
+          <h3>your camping experience</h3>
+          <p>Designed for those who appreciate the fundamental joys of camping, our selection of basic tents offert comfort and reliability without unnecessary frills.</p>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- section tent -->
+    <script src="main.js"></script>
+  </body>
 </html>

@@ -1,5 +1,21 @@
-ul nav_links a 
-add uppercase
+# CSS Changement
 
-nav_links:hover at media width > 768px
+.container_left .btn:hover
+effect
+
+ <!-- media width > 768px -->
+nav_links:hover at 
 change backgroun color
+
+
+# HTML
+div container -> section
+container_left, container_right -> article
+
+# files
+resize img
+better css 
+
+
+
+delete remind.md
