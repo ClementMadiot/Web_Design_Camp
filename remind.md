@@ -12,6 +12,9 @@ change backgroun color
 div container -> section
 container_left, container_right -> article
 
+# JS 
+change scroll
+
 # files
 resize img
 better css 

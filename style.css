@@ -155,14 +155,6 @@ nav {
   padding-inline: 1rem;
   text-align: center;
 
-  h1 {
-    margin-bottom: 2rem;
-    font-size: 3.5em;
-    font-weight: 700;
-    line-height: 4.5rem;
-    color: var(--text-dark);
-    text-transform: capitalize;
-  }
   .btn {
     padding: 1rem 2rem;
     letter-spacing: 2px;
@@ -175,6 +167,14 @@ nav {
       background: var(--primary-color);
     }
   }
+}
+.container_left h1 {
+  margin-bottom: 2rem;
+  font-size: 3.5em;
+  font-weight: 700;
+  line-height: 4.5rem;
+  color: var(--text-dark);
+  text-transform: capitalize;
 }
 
 .container_right {
@@ -278,7 +278,7 @@ nav {
     top: 0;
     height: 90%;
   }
-  /* image  */
+  /*/ image  /*/
   .images {
     flex-direction: column;
   }
@@ -289,7 +289,7 @@ nav {
   }
   .tent-2 {
     max-width: 200px;
-    transform: translate(4rem, -1rem);
+    transform: translate(3.3rem, -1.2rem);
   }
   .content {
     padding-block: 5rem;
