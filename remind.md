@@ -8,9 +8,12 @@ nav_links:hover at
 change backgroun color
 
 
+ media width > 520px 
+ location + social
+
+
 # HTML
-div container -> section
-container_left, container_right -> article
+title
 
 # JS 
 change scroll
