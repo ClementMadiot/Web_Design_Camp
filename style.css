@@ -41,7 +41,7 @@ nav {
   isolation: isolate;
   width: 100%;
   z-index: 9;
-
+  position: relative;
 }
 .nav_header {
   padding: 1rem;
@@ -58,7 +58,8 @@ nav {
   text-transform: capitalize;
 }
 .nav_menu_btn {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  text-align: center;
   color: var(--white);
   cursor: pointer;
 }
@@ -67,13 +68,13 @@ nav {
   top: 60px;
   left: 0;
   width: 100%;
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 1rem 2rem 1.7rem 2rem;
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.7rem;
   background: var(--text-dark);
   transition: 0.5s;
   z-index: -1;
@@ -86,31 +87,35 @@ nav {
     color: var(--primary-color);
     text-transform: uppercase;
     position: relative;
-    opacity: 0.85;
     &::before {
       position: absolute;
       content: '';
-      height: 2px;
-      background-color: var(--text-dark);
+      height: 1.8px;
+      background-color: var(--primary-color);
       transition: 300ms;
       width: 0%;
-      top: 20px;
+      top: 22px;
     }
     &:hover {
       color: var(--white);
-      opacity: 1;
     }
     &:hover::before {
       width: 100%;
     }
   }
 }
+.ri-close-line{
+  font-size: 1.7rem;
+  margin-right: -3px;
+}
 .nav_btns {
-  display: none;
-  /* display: flex;
-  align-items: center; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 18px;
+  right: 40px;
   flex: 1;
-  gap: 1.5rem;
+  gap: 1.4rem;
   margin-right: 1rem;
 
   .btn {
@@ -148,15 +153,18 @@ nav {
     flex-direction: row;
     background: transparent;
     transform: none;
-
+    gap: 3rem;
     a,
     a:hover {
       color: var(--text-dark);
     }
+    a::before{
+      background-color: var(--text-dark);
+      height: 1.5px;
+    }
   }
   .nav_btns {
-    display: flex;
-    align-items: center;
+    position: static;
     .btn {
       color: var(--text-dark);
       background: transparent;
@@ -187,10 +195,13 @@ nav {
     color: var(--white);
     background: var(--text-dark);
     border-radius: 5rem;
+    border: 2px solid transparent;
     text-transform: uppercase;
+    font-weight: 700;
     &:hover {
       color: var(--text-dark);
       background: var(--primary-color);
+      border: 2px solid var(--text-dark);
     }
     &:active {
       transform: translateY(4px);
