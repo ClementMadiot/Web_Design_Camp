@@ -32,34 +32,34 @@ sr.reveal('.container_left h1',{
 })
 sr.reveal('.container_left .container_btn',{
   ...scrollRevealOption,
-  delay:500,
+  delay:400,
 })
 
 //: right ://
 sr.reveal('.container_right h4',{
   ...scrollRevealOption,
-  delay:2000,
+  delay:1000,
 })
 sr.reveal('.container_right h2',{
   ...scrollRevealOption,
-  delay:2500,
+  delay:1300,
 })
 sr.reveal('.container_right h3',{
   ...scrollRevealOption,
-  delay:3000,
+  delay:1600,
 })
 sr.reveal('.container_right p',{
   ...scrollRevealOption,
-  delay:3500,
+  delay:1900,
 })
 
 //: img ://
 
 sr.reveal('.container_right .tent-1',{
   duration:1000,
-  delay:4000,
+  delay:2300,
 })
 sr.reveal('.container_right .tent-2',{
   duration:1000,
-  delay:4500,
+  delay:2500,
 })

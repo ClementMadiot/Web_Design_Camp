@@ -15,9 +15,6 @@ change backgroun color
 # HTML
 title
 
-# JS 
-change scroll
-
 # files
 resize img
 better css 
