@@ -7,9 +7,7 @@ effect
 nav_links:hover at 
 change backgroun color
 
-
- media width > 520px 
- location + social
+opacity a
 
 
 # HTML
