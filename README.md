@@ -2,7 +2,7 @@
 
 ## Load page create with HTML, CSS and Javascript
 
-### JavaScript Library
+### Librairy JavaScript
 
 In this project I used ScrollReveal to animate some elements as the loading
 
